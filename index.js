@@ -734,7 +734,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             let member = participants.map(u => u.id)
             let me = m.sender
             let jodoh = member[Math.floor(Math.random() * member.length)]
-            let jawab = `👫Jodoh mu adalah
+            let jawab = `Jodoh mu adalah
 
 @${me.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
             let ments = [me, jodoh]
@@ -749,7 +749,7 @@ Silahkan @${m.mentionedJid[0].split`@`[0]} untuk ketik terima/tolak`
             let member = participants.map(u => u.id)
             let orang = member[Math.floor(Math.random() * member.length)]
             let jodoh = member[Math.floor(Math.random() * member.length)]
-            let jawab = `Ciee yang Jadian💖 Jangan lupa pajak jadiannya🐤
+            let jawab = `Ciee Jadian Jangan lupa pajak jadiannya peje nya
 
 @${orang.split('@')[0]} ❤️ @${jodoh.split('@')[0]}`
             let menst = [orang, jodoh]
@@ -791,7 +791,7 @@ chika.sendMessage(from, { text: `Rate : ${q}\nJawaban : *${te}%*` }, { quoted: m
 case 'gantengcek':
   case 'cekganteng':
    
-				if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Riych`)
+				if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Yorley`)
 					const gan = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
 					const teng = gan[Math.floor(Math.random() * gan.length)]
 chika.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${teng}%*` }, { quoted: m })
@@ -800,7 +800,7 @@ chika.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${teng}%*` }, { quoted:
 case 'cantikcek':
   case 'cekcantik':
    
-				if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Riych`)
+				if (!q) return reply(`Penggunaan ${command} Nama\n\nContoh : ${command} Yorley`)
 					const can = ['5', '10', '15' ,'20', '25','30','35','40','45','50','55','60','65','70','75','80','85','90','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
 chika.sendMessage(from, { text: `Nama : ${q}\nJawaban : *${tik}%*` }, { quoted: m })
